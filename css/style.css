@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 50px auto;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.firstPage{
+    width: 1000px;
+    margin: 0 auto;
+    height: 1300px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.pageItems{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.leftBar{
+    background-color: #F2F2F2;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 35%;
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contactInfo h2{
+    color: #000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contactInfo span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contactInfo span i{
+    font-size: 16px;
+    color: #EE2C2A;
+}
+.contactInfo span p{
+    color: #000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-break: anywhere;
+}
+.rightBar{
+    width: 65%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+.heading{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.heading h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.heading h3{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #EE2C2A;
+    text-transform: capitalize;
+}
+.heading h4{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.heading h4 span{
+    font-weight: 400;
+}
+.aboutMe h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.aboutMe p{
+    color: #000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.projectItem{
+    display: flex;
+    flex-direction: column;
+}
+.projects h5{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+.ProjectItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.projectItem h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.projectItem h3{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #EE2C2A;
+    text-transform: uppercase;
+}
+.projectItem h3 span{
+    font-weight: 400;
+}
+.projectItem h4{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.projectItem ul{
+    margin: 0;
+    padding: 0;
+}
+.projectItem ul li{
+    font-size: 15px;
+    list-style: none;
+    font-weight: 400;
+}
+.secoundPage{
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.education h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.eduItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.eduItem h5{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.eduItem h3{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.eduItem h4{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.eduItem h4 span{
+    font-weight: 400;
+}
+.eduItem h2{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #EE2C2A;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.ProgSkills h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.ProgSkills h3{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.ProgSkills h3 span{
+    font-weight: 400;
+}
+.languages h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.languages h3{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.langType{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.langType h4{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-align: center;
+}
+.footer{
+    border-top: 1px solid #00000023;
+    padding-top: 30px;
+}
+.footer p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.footer h3{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-top: 30px;
+    border-top: 1px dashed #0000007c;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+/* Media query */
+@media screen and (max-width: 1210px){
+    .firstPage{
+        width: 95%;
+        height: 100%;
+    }
+    .secoundPage{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px){
+    .image img{
+        width: 130px;
+        height: 130px;
+    }
+    .pageItems{
+        flex-direction: column;
+    }
+    .leftBar{
+        width: 100%;
+    }
+    .rightBar{
+        width: 100%;
+    }
+    .secoundPage{
+        padding: 30px;
+    }
+    .langType{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
